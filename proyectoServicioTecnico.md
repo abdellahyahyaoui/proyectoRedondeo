@@ -1,4 +1,4 @@
-# Plan de Actuación para la Plataforma de Soporte Técnico Automatizado para Coches
+# Plataforma de Soporte Técnico Automatizado para Coches
 
 ## 1. Definición del Proyecto
 
@@ -197,7 +197,7 @@ Frontend -> Usuario: Muestra diagnóstico
 | - Procesamiento de lenguaje natural |
 +-----------------+
 ```
-### Estos diagramas  proporcionarán una guía general sobre cómo está estructurado el sistema y cómo interactúan sus componentes. Puedes utilizar herramientas UML para convertir estos esquemas en diagramas gráficos detallados.
+8
 
 
 
@@ -213,26 +213,22 @@ Frontend -> Usuario: Muestra diagnóstico
 
 ### Entornos de Desarrollo y Editores de Código
 - **Visual Studio Code**: Editor de código versátil con soporte para múltiples lenguajes y extensiones.
-- **PyCharm**: IDE especializado en Python (opcional, pero útil para proyectos en Python).
-- **WebStorm**: IDE para JavaScript y frameworks como React.js (opcional).
+
 
 ### Gestión de Entornos Virtuales
-- **venv**: Para crear entornos virtuales en Python.
-- **pip**: Para la gestión de paquetes en Python.
+- **venv**: Para crear entornos virtuales en python
 
 ### Bases de Datos
 - **MySQL/MariaDB**: Para la base de datos relacional.
-- **Django ORM**: Si utilizas Django, el ORM de Django te ayudará a interactuar con la base de datos.
-- **SQLAlchemy**: Si usas Flask, SQLAlchemy es un ORM popular.
+
 
 ### Herramientas de Control de Versiones
 - **Git**: Para el control de versiones del código.
-- **GitHub/GitLab/Bitbucket**: Para el alojamiento del repositorio y la colaboración.
+  
 
 ### Herramientas de Desarrollo Frontend
 - **Node.js**: Para la gestión de paquetes y dependencias de JavaScript.
-- **npm/yarn**: Para la gestión de dependencias de JavaScript.
-- **Webpack**: Para la empaquetación y construcción del frontend (opcional).
+  
 
 ### Herramientas de Desarrollo Backend
 - **Postman**: Para probar y documentar APIs.
@@ -257,8 +253,7 @@ Frontend -> Usuario: Muestra diagnóstico
 
 ### Documentación
 - **Markdown**: Para crear documentación en formato Markdown.
-- **Sphinx**: Para generar documentación técnica en Python.
-- **Doxygen**: Para generar documentación del código (opcional).
+
 
 ## Herramientas de Pruebas
 
@@ -282,124 +277,6 @@ Frontend -> Usuario: Muestra diagnóstico
 
 ### CI/CD
 - **GitHub Actions/GitLab CI**: Para la integración continua y despliegue continuo.
-
-# Plan de Ejecución Paso a Paso
-
-## 1. Preparativos Iniciales
-
-### 1.1 Configuración del Entorno de Desarrollo
-- **Descripción**: Instala y configura las herramientas necesarias como Python, Node.js, y cualquier otra dependencia. Asegúrate de tener acceso a las herramientas y bibliotecas que utilizarás.
-
-## 2. Configuración del Entorno de Desarrollo
-
-
-
-## 3. Configuración del Proyecto
-
-
-
-### 3.2 Configurar Base de Datos
-- **Descripción**: Configura la base de datos para el proyecto en el archivo de configuración (`settings.py` para Django o un archivo de configuración en Flask).
-
-### 3.3 Crear Modelos de Datos
-- **Descripción**: Define los modelos de datos en tu aplicación para gestionar la información de usuarios, vehículos y diagnósticos.
-
-## 4. Desarrollo del Backend
-
-### 4.1 Implementar Rutas y Vistas
-- **Descripción**: Desarrolla las rutas y vistas para el registro de vehículos, diagnóstico de problemas y otras funcionalidades del backend.
-
-### 4.2 Implementar Lógica de Diagnóstico
-- **Descripción**: Desarrolla la lógica para procesar descripciones de problemas y generar diagnósticos. Integrar el sistema de IA para analizar problemas.
-
-### 4.3 Configurar API
-- **Descripción**: Configura las APIs necesarias para la comunicación entre el frontend y el backend.
-
-## 5. Desarrollo del Frontend
-
-### 5.1 Crear Proyecto React
-- **Descripción**: Inicializa un nuevo proyecto en React para el frontend de la plataforma.
-
-
-### 5.2 Implementar Componentes de Usuario
-- **Descripción**: Desarrolla los componentes necesarios para la interfaz de usuario, incluyendo formularios para el registro de vehículos y la descripción de problemas.
-
-### 5.3 Integrar Frontend con Backend
-- **Descripción**: Conecta los componentes del frontend con las APIs del backend para enviar y recibir datos.
-
-## 6. Pruebas
-
-### 6.1 Ejecutar Pruebas Unitarias
-- **Descripción**: Realiza pruebas unitarias en el backend y el frontend para verificar que cada componente funciona correctamente de forma aislada.
-
-### 6.2 Pruebas de Integración
-- **Descripción**: Verifica que el frontend y el backend funcionen correctamente juntos, asegurando que las APIs se comunican de manera efectiva.
-
-### 6.3 Pruebas de Usabilidad
-- **Descripción**: Evalúa la experiencia del usuario y la interfaz para asegurar que la plataforma sea fácil de usar y eficiente.
-
-## 7. Despliegue
-
-### 7.1 Preparar para el Despliegue
-- **Descripción**: Realiza los ajustes finales en la configuración y prueba en el entorno de producción.
-
-### 7.2 Desplegar en Producción
-- **Descripción**: Implementa la plataforma en el entorno de producción y verifica que todos los servicios estén funcionando correctamente.
-
-## 8. Mantenimiento
-
-### 8.1 Monitoreo Continuo
-- **Descripción**: Monitorea el sistema para detectar posibles problemas y ofrecer soporte continuo.
-
-### 8.2 Actualización y Mejora
-- **Descripción**: Incorpora nuevas funcionalidades y realiza mejoras basadas en la retroalimentación de los usuarios.r
-
-
-# Plan de Ejecución para la Plataforma de Soporte Técnico Automatizado para Coches
-
-## 1. Preparativos Iniciales
-
-- Instalación y configuración de herramientas y dependencias necesarias.
-
-## 2. Configuración del Entorno de Desarrollo
-**Duración Estimada**: 1-2 días
-- Creación y configuración del entorno virtual.
-- Instalación de bibliotecas y frameworks necesarios.
-
-## 3. Configuración del Proyecto
-
-- Inicialización del proyecto en Django o Flask.
-- Configuración de la base de datos y del entorno de desarrollo.
-
-## 4. Desarrollo del Backend
-
-- Implementación de rutas y vistas.
-- Desarrollo de la lógica de diagnóstico.
-- Integración del sistema de IA para el diagnóstico de problemas.
-
-## 5. Desarrollo del Frontend
-
-- Creación de la interfaz de usuario en React.
-- Integración del frontend con el backend.
-
-## 6. Pruebas
-
-- Realización de pruebas unitarias.
-- Pruebas de integración y de usabilidad.
-
-## 7. Despliegue
-
-- Preparación del entorno de producción.
-- Despliegue de la plataforma y configuración del servidor.
-
-## 8. Mantenimiento
-
-- Monitoreo y corrección de errores.
-- Actualización de la plataforma y mejoras basadas en la retroalimentación de los usuarios.
-
-**Estimación Total**: Aproximadamente 2-3 meses
-
-
 
 
 # Estrategia Híbrida para la Plataforma de Soporte Técnico Automatizado
